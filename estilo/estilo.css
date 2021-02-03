@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+header {
+    border-bottom: 2px solid black;
+    background: url('../media/ME262_cabecalho.png') no-repeat 0% 90%;
+}
+
+h1 {
+    color: #2c2b2b;
+    font-size: 15pt;
+    text-align: center;
+}
+
+h2 {
+    color: #2c2b2b;
+    font-size: 15pt;
+    text-align: center;
+}
+
+div#corpo {
+    box-shadow: 4px 4px 4px #0c0c0c;
+    padding: 30px;
+    background-color: grey;
+    margin: 0px 20px 0px 20px;
+}
+
+section#ladoEs {
+    display: block;
+    float: left;
+    width: 550px;
+    padding-right: 20px;
+    border-right: 2px solid black;
+}
+
+section#lado {
+    display: block;
+    position: relative;
+    float: right;
+    width: 630px;
+    padding-left: 20px;  
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+footer {
+    clear: both;
+    border-top: 2px solid black;
+    padding-top: 20px;
+}
+
+
+
